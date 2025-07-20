@@ -1,0 +1,22 @@
+schema: '2.0'
+stages:
+  data_ingestion:
+    cmd: python src/data_injection.py
+    deps:
+    - path: data/heart.xls
+      hash: md5
+      md5: 6481ed154d5b8ff83d7c09007aaa6ed0
+      size: 38114
+    - path: src/data_injection.py
+      hash: md5
+      md5: cde85e35aea14f22149a8e16ae73dc72
+      size: 3365
+    outs:
+    - path: data/raw/test.csv
+      hash: md5
+      md5: 8709b30128da6932b94f78d072b1b547
+      size: 7657
+    - path: data/raw/train.csv
+      hash: md5
+      md5: 56dd910e3f2f000a82499b3930e53edb
+      size: 30393
