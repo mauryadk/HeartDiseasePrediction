@@ -14,7 +14,7 @@ Welcome! This project is a complete machine learning solution for predicting hea
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 - `src/data_injection.py` — Loads and splits the data
 - `src/model_training.py` — Trains and evaluates the ML pipeline
@@ -26,7 +26,7 @@ Welcome! This project is a complete machine learning solution for predicting hea
 
 ---
 
-## 🛠️ Getting Started
+## Getting Started
 
 ### 1. **Install dependencies**
 
